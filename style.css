@@ -4,15 +4,12 @@ body {
 }
    
 h1 {
-
   text-align: center;
   margin-top: 60px;
   color: #001aff;
   font-family: "Times New Roman", Times, serif;
   line-height: 2;
-  
 }
-   
 #guess-input {
   display: block;
   margin: 0 auto 20px;
@@ -21,9 +18,8 @@ h1 {
   width: 250px;
   border: 1px solid #ccc;
 }
-   
+  
 #guess-button {
-
   display: block;
   margin: 0 auto;
   padding: 10px 20px;
