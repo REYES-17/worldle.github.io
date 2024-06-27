@@ -51,8 +51,6 @@ function intentar() {
     if (intentos == 0) {
         terminar("<h1 style='color: RED'>LO SIENTO, HAS PERDIDO</h1>");
     }
-
-
 }
 
 function leerIntento() {
@@ -63,7 +61,6 @@ function leerIntento() {
 }
 
 function terminar(mensaje) {
-
     const INPUT = document.getElementById("guess-input");
     const BOTON = document.getElementById("guess-button");
     INPUT.disabled = true;
@@ -71,7 +68,6 @@ function terminar(mensaje) {
     let contenedor = document.getElementById('guesses');
     contenedor.innerHTML = mensaje;
 }
-
 window.addEventListener('load', init);
 function init() {
     console.log('Esto se ejecuta solo cuando se carga la pagina web')
